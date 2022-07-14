@@ -384,10 +384,10 @@ add_executable(chrono_vs_time chrono_vs_time.cpp)
 target_link_libraries(chrono_vs_time ${EXTRA_LIBS} -lrt)
 
 
-if (Boost_FOUND)
-	add_executable(cust_alloc test_custom_allocator.cpp)
-	target_link_libraries(cust_alloc ${EXTRA_LIBS})
-endif(Boost_FOUND)
+#if (Boost_FOUND)
+#	add_executable(cust_alloc test_custom_allocator.cpp)
+#	target_link_libraries(cust_alloc ${EXTRA_LIBS})
+#endif(Boost_FOUND)
 
 
 

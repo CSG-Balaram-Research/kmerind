@@ -704,7 +704,7 @@ endif(ENABLE_KMER_BENCHMARK)
 CMAKE_DEPENDENT_OPTION(BUILD_TEST_APPLICATIONS "Inform whether test applications should be built" ON
                         "ENABLE_TESTING" OFF)
 # Check if the user want to build sample applications
-OPTION(BUILD_EXAMPLE_APPLICATIONS "Inform whether sample applications should be built" OFF)
+OPTION(BUILD_EXAMPLE_APPLICATIONS "Inform whether sample applications should be built" ON)
 
 
 
